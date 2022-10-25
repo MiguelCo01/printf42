@@ -6,13 +6,12 @@
 /*   By: mmelo-da <mmelo-da@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 11:18:06 by mmelo-da          #+#    #+#             */
-/*   Updated: 2022/10/25 12:36:49 by mmelo-da         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:39:38 by mmelo-da         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include "stdarg.h"
-
 
 int	ft_formats(char *format, va_list valist)
 {

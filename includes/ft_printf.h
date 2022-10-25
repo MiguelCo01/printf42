@@ -6,7 +6,7 @@
 /*   By: mmelo-da <mmelo-da@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 11:18:21 by mmelo-da          #+#    #+#             */
-/*   Updated: 2022/10/25 12:06:02 by mmelo-da         ###   ########.fr       */
+/*   Updated: 2022/10/25 12:39:22 by mmelo-da         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 # define FT_PRINTF_H
 # include "stdint.h"
 
-int	ft_printf(const char	*msg, ...);
-
+int	ft_printf(const char *msg, ...);
 
 int	ft_put_char(char c);
 int	ft_put_hex(uintptr_t ptr, int u_flag);
