@@ -5,3 +5,5 @@ ft_printf.o
 ft_printf_func.o
 ft_printf_utils.o
 libftprintf.a
+/ft_printf-tester/
+.gitignore
